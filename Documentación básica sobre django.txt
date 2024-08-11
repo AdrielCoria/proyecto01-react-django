@@ -1,0 +1,47 @@
+- Django:
+Es un framework web de alto nivel que permite el desarrollo rápido de sitios web seguros y mantenibles. Desarrollado por programadores experimientados, Django se encarga de gran parte de las complicaciones del desarrollo web, por lo que puedes concentrarte en escribir tu aplicación sin necesidad en escribir tu aplicación sin necesidad de reinventar la rueda.
+
+- PIP (Pip Install Packages):
+PIP es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python.
+
+- Entorno Virtual:
+Los entornos virtuales se puden describir como directorios de instalación aislados. Este aislamiento te permite localizar la instalación de las dependencias de tu proyecto, sin obligarte a instalarlas en todo el sistema.
+
+- Instalación de entorno virtual:
+# Primero utlizaremos el gestor de paquetes PIP para la instalación de virtualenv:
+		# pip install virtualenv
+
+# Verificamos la instalación con el comando:
+		# python3 -m virtualenv --version
+
+# Creacion de entorno virtual
+		# python -m virtualenv venv
+
+# Activar entorno virtual:
+		# venv\Scripts\activate
+
+# Instalación de django:
+		# pip install django
+
+# Creación del proyecto
+		# django-admin startproject drf
+
+# Levantamos el servidor de prueba:
+		# python manage.py runserver
+
+# Comando para crear la base de datos(SQLite)
+		# python manage.py migrate
+
+# Para crear un usuario en django:
+		# python manage.py createsuperuser
+
+# Para trabajar implementar los modelos en la base de datos
+		# python .\manage.py  makemigrations (nombre_de_clase)
+
+# Instalamos django rest-framework
+		# pip install djangorestframework
+
+# Solucionar problema de CORS:
+		# pip install django-cors-headers
+
+

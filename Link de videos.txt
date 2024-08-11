@@ -1,0 +1,5 @@
+API REST con Django + React:
+https://www.youtube.com/watch?v=Fg0OZqLbaJE&t=10s
+
+API con JWT
+https://www.youtube.com/watch?v=zzBO8qRq_K4&list=PLtLJzI6izyPUYzUBjUNWHuLQ1iMNXtPcc&index=2
